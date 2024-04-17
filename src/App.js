@@ -26,11 +26,11 @@ export default function App() {
       <input
         placeHolder="Enter task here to add to ToDo list ..."
         value={inputText}
-        className="w-50 pl-2  shadow-none "
+        className="w-50 pl-2  "
         onChange={inputHandler}
       />
       <button className="ml-2 btn-primary rounded-lg" onClick={taskHandler}>
-        Add Task
+        Add Task 
       </button>
 
       <h3 className="mt-5">Added Tasks</h3>
